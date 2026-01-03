@@ -1,5 +1,4 @@
 //go:build linux && !s390x && !arm && !386
-// +build linux,!s390x,!arm,!386
 
 // Copyright (c) 2015-2023 MinIO, Inc.
 //
@@ -161,7 +160,7 @@ func readStat(fileName string) (stats []uint64, err error) {
 		return nil, err
 	}
 	statLine := strings.TrimSpace(s)
-	for _, token := range strings.Fields(statLine) {
+	for token := range strings.FieldsSeq(statLine) {
 		ui64, err := strconv.ParseUint(token, 10, 64)
 		if err != nil {
 			return nil, err

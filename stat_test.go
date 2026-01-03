@@ -1,5 +1,4 @@
 //go:build linux && !s390x && !arm && !386
-// +build linux,!s390x,!arm,!386
 
 // Copyright (c) 2015-2024 MinIO, Inc.
 //
@@ -101,7 +100,6 @@ func TestReadDriveStats(t *testing.T) {
 	}
 
 	for _, testCase := range testCases {
-		testCase := testCase
 		t.Run("", func(t *testing.T) {
 			tmpfile, err := os.CreateTemp(t.TempDir(), "testfile")
 			if err != nil {
