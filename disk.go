@@ -1,6 +1,8 @@
 // Copyright (c) 2015-2021 MinIO, Inc.
+// Copyright (c) 2025 Kypello Community
 //
-// This file is part of MinIO Object Storage stack
+// This file was originally part of MinIO Object Storage stack
+// and is now maintained as part of the disk-go package.
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by

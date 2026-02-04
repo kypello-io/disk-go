@@ -1,0 +1,21 @@
+MinIO Project, (C) 2015-2021 MinIO, Inc.
+
+This package contains code originally developed at MinIO, Inc.
+(https://min.io/) as part of the MinIO Object Storage stack.
+
+========================================================================
+
+Kypello Project, (C) 2025 Kypello Community
+
+This package is maintained as part of the Kypello fork of MinIO.
+Kypello is a community-maintained fork that preserves enterprise
+functionality within the open-source ecosystem.
+
+This package has been extracted into a standalone module to enable
+broader usage across the Go ecosystem.
+
+Kypello is not affiliated with, endorsed by, or sponsored by MinIO, Inc.
+
+========================================================================
+
+All code is licensed under the GNU Affero General Public License 3.0.
